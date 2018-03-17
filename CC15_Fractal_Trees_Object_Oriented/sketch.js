@@ -4,10 +4,6 @@ let count = 0;
 
 function setup() {
     createCanvas(400, 400);
-    // slider = createSlider(0, TWO_PI, PI / 4, 0.01);
-
-    // angle = slider.value();
-
     let a = createVector(width / 2, height);
     let b = createVector(width / 2, height - 100);
     let root = new Branch(a, b);
